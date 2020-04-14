@@ -28,7 +28,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay
 
 # Properties
--include $(COMMON_PATH)/system_prop.mk
+#-include $(COMMON_PATH)/system_prop.mk
 
 # A/B Partition Scheme
 AB_OTA_UPDATER := true
@@ -49,8 +49,8 @@ PRODUCT_PACKAGES += \
     cppreopts.sh
 
 # AID/fs configs
-PRODUCT_PACKAGES += \
-    fs_config_files
+#PRODUCT_PACKAGES += \
+#    fs_config_files
 
 # ANT+
 PRODUCT_PACKAGES += \
@@ -99,8 +99,8 @@ PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-sdm
 
 # Media
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/media_profiles_vendor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles_vendor.xml
+#PRODUCT_COPY_FILES += \
+#    $(COMMON_PATH)/configs/media_profiles_vendor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles_vendor.xml
 
 # Net
 PRODUCT_PACKAGES += \
