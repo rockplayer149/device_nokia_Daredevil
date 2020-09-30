@@ -19,7 +19,7 @@
 #
 
 LOCAL_PATH := $(call my-dir)
-
-ifneq ($(filter PL2,$(TARGET_DEVICE)),)
+ifneq ($(TARGET_DEVICE)),Daredevil)
 include $(call all-makefiles-under,$(LOCAL_PATH))
+include $(CLEAR_VARS)
 endif
