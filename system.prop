@@ -426,7 +426,7 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 
 # Maintainer
-ro.maintainer=G Raghu Varma
+ro.maintainer= Riju Ghosh
 
 # Over the air
 ro.android.build.version=android-10.0
