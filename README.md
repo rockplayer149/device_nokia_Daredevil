@@ -1,4 +1,6 @@
- Nokia 7.2 (codenamed _"Daredevil"_) are high-end mid-range smartphones from Nokia.
+![Nokia 7.2 Device Tree](https://github.com/Rockplayer149/device_nokia_Daredevil/raw/ten/Nokia7.2.png)
+
+Nokia 7.2 (codenamed _"Daredevil"_).
 
 Nokia 7.2 Plus was announced and released in 2019.
 
