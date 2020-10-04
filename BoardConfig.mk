@@ -60,7 +60,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/nokia/sdm660
 TARGET_KERNEL_CONFIG := SAT-perf_defconfig
-TARGET_PREBUILT_KERNEL := device/nokia/Daredevil/image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/nokia/Daredevil/Image.gz-dtb
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
